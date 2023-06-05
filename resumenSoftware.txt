@@ -1,0 +1,5 @@
+3 ejemplos de software:
+
+1. nano
+2. git
+3. bash

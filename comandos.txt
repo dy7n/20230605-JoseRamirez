@@ -1,0 +1,35 @@
+ 1924  mkdir 20230605-JoseRamirez
+ 1925  cd 20230605-JoseRamirez/
+ 1926  git init
+ 1927  git remote add origin git@github.com:dy7n/20230605-JoseRamirez.git
+ 1928  git remote -v
+ 1929  touch comandos.txt main.js index.html
+ 1930  ls
+ 1931  git add .
+ 1932  git commit -m "commit 01 JoseRamirez"
+ 1933  git  push origin main
+ 1934  git branch feature
+ 1935  git checkot feature
+ 1936  git branch
+ 1937  git checkout feature
+ 1938  ls
+ 1939  git branch
+ 1940  mkdir Hardware Software SeguridadInformatica
+ 1941  ls
+ 1942  touch Hardware/resumen.txt
+ 1943  touch Software/resumen.txt
+ 1944  touch SeguridadInformatica/resumen.txt
+ 1945  git add .
+ 1946  git commit -m "commit 02 JoseRamirez"
+ 1947  git push origin feature 
+ 1948  git  checkout main 
+ 1949  git branch
+ 1950  mv main.js resumenHardware.txt
+ 1951  mv index.html resumenSoftware.txt
+ 1952  nano resumenSoftware.txt 
+ 1953  nano resumenHardware.txt 
+ 1954  cat resumenSoftware.txt 
+ 1955  cat resumenHardware.txt 
+ 1956  ls
+ 1957  history
+ 1958  history 50 > comandos.txt 
